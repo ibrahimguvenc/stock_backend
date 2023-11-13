@@ -15,7 +15,7 @@ const dbConnection = function () {
     })
     .then(() => {
       console.log("* DB Connected * ");
-      //   require("../helpers/sync")(); // !!! It clear database.
+      // require("../helpers/sync")(); // !!! It clear database.
     })
     .catch((err) => console.log("* DB Not Connected * ", err));
 };
